@@ -1,11 +1,8 @@
 .card-button {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 20px;
   border-radius: 3px;
-  background: rgba(255, 255, 255, 0.03);
+  background: #ffffff08;
   color: #fff;
+  padding: 20px;
   border: none;
   cursor: pointer;
   text-align: start;
@@ -14,5 +11,5 @@
 }
 
 .card-button:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: #ffffff1a;
 }

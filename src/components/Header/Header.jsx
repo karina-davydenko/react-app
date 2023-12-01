@@ -1,7 +1,7 @@
 import "./Header.css";
 
 function Header({ children }) {
-  return <h1>Logo</h1>;
+  return <img className="logo" src="/logo.svg" alt="Логотип" />;
 }
 
 export default Header;

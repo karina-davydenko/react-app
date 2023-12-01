@@ -14,19 +14,19 @@ function JournalAddBtn() {
         <path
           d="M10 4.96265V16.6293"
           stroke="white"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M4.16669 10.796H15.8334"
           stroke="white"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
-      Новое воспоминание
+      <p>Новое воспоминание</p>
     </CardButton>
   );
 }

@@ -10,3 +10,7 @@
   font-weight: 600;
   line-height: normal;
 }
+
+.journal-add p {
+  margin: 0;
+}

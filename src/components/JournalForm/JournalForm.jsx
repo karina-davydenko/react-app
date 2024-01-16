@@ -16,7 +16,7 @@ function JournalForm({ onSubmit }) {
     const formData = new FormData(e.target);
     const formProps = Object.fromEntries(formData);
     let isFormValid = true;
-    if (!formProps.title.trim().length) {
+    if (!formProps.title?.trim().length) {
       setFormValidState((oldState) => ({ ...oldState, title: false }));
       isFormValid = false;
     } else {
@@ -38,6 +38,7 @@ function JournalForm({ onSubmit }) {
       return;
     }
     onSubmit(formProps);
+    console.log("Submit");
   };
 
   return (
@@ -46,7 +47,7 @@ function JournalForm({ onSubmit }) {
         type="text"
         name="title"
         placeholder="Заголовок"
-        className={cn(styles.title, {
+        className={cn(styles.title, styles.input, {
           [styles.invalid]: !formValidState.title,
         })}
       />
